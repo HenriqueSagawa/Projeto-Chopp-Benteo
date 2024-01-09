@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&display=swap');
+
+/*
+Estilos Gerais
+Ínicio
+*/
+
+:root {
+    --nav-color: #090D0B;
+    --laranja: #D97236;
+    --laranja-escuro: #8C4637;
+    --footer-color: #282C2F;
+    --footer-icons: #33383B;
+    --fonte-alternativa: #ccc;
+    --fundo: #212121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--fundo);
+}
+
+/*Fim*/
+
+/*
+Estilos da navBar
+Ínicio
+*/
+
+nav {
+    background-color: var(--nav-color);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav .logo-img {
+    max-width: 9rem;
+    height: fit-content;
+}
+
+nav ul img {
+    width: 3rem;
+    height: fit-content;
+    border-radius: 50%;
+    border: 3px solid var(--laranja-escuro);
+    background-color: var(--laranja);
+    padding: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--fonte-alternativa);
+    font-size: 12px;
+}
+
+/*Fim*/
+
+/*
+Estilos de Header
+Ínicio
+*/
+
+header {
+    width: 100%;
+    height: 50vh;
+    max-height: 472px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+
+    background-image: url(../imagens/header-fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+header .content {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    color: #fff;
+
+    z-index: 1;
+}
+
+header p:nth-child(1) {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header p:nth-child(1) span {
+    width: 5rem;
+    height: 1px;
+    background-color: #fff;
+
+}
+
+header a {
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 3px solid var(--laranja);
+    color: var(--laranja);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+header a:hover {
+    background-color: var(--laranja);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+header p:nth-child(3) {
+    font-size: 0.8rem;
+}
