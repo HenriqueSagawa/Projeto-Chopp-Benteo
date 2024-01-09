@@ -177,6 +177,35 @@ main h2 {
     gap: 0.5rem;
 }
 
+.text {
+    width: 90%;
+    height: fit-content;
+    background-color: var(--footer-icons);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    display: none;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.text button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.text button span {
+    font-size: 2rem;
+}
+
 .card {
     width: 275px;
     height: fit-content;
