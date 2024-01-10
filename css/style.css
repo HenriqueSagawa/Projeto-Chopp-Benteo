@@ -21,7 +21,6 @@ Estilos Gerais
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    list-style: none;
 }
 
 body {
@@ -67,6 +66,7 @@ nav ul img {
 nav ul {
     display: flex;
     gap: 1.5rem;
+    list-style: none;
 }
 
 nav ul li {
@@ -179,7 +179,7 @@ main h2 {
 
 .text {
     width: 90%;
-    height: fit-content;
+    height: 90vh;
     background-color: var(--footer-icons);
     padding: 3rem;
     border-radius: 1rem;
@@ -190,6 +190,7 @@ main h2 {
     display: none;
     transition: all 0.3s ease;
     z-index: 1;
+    overflow-y: auto;
 }
 
 .text button {
