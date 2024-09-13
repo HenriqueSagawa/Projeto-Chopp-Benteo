@@ -1,6 +1,6 @@
 # Chopp Benteo - Website
 
-Este repositório contém o código-fonte do site oficial da **Chopp Benteo**, uma empresa especializada em produção e venda de chopp artesanal. O site foi desenvolvido utilizando HTML, CSS e JavaScript para oferecer uma interface simples e interativa aos clientes.
+Este repositório contém o código-fonte do site oficial da **Chopp Benteo**. O site foi desenvolvido utilizando HTML, CSS e JavaScript para oferecer uma interface simples e interativa aos clientes.
 
 ## Descrição
 
